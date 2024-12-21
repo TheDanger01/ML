@@ -1,0 +1,12 @@
+# Entorno Jupyter
+jupyter
+jupyterlab
+
+# Bibliotecas científicas y ML
+numpy
+tensorflow
+opencv-python
+scikit-learn
+matplotlib
+ultralytics
+PyYAML
