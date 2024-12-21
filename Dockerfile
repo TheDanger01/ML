@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r dependencias.txt
 RUN mkdir -p /notebooks /data
 
 # Exponer el puerto de Jupyter
-EXPOSE 8888
+EXPOSE 6000
 
 # Mantener el contenedor ejecutándose
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=6000", "--allow-root"]
