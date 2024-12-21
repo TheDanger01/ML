@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8888:8888"
+      - "6000:6000"
     volumes:
       - ./notebooks:/notebooks
       - ./data:/data
